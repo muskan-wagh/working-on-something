@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg-base: oklch(0.13 0.02 240);
+  --color-bg-surface: oklch(0.17 0.025 240);
+  --color-bg-elevated: oklch(0.21 0.03 240);
+  --color-bg-hover: oklch(0.25 0.035 240);
+  --color-border-muted: oklch(0.27 0.025 240);
+  --color-border-default: oklch(0.35 0.03 240);
+  --color-text-muted: oklch(0.55 0.02 240);
+  --color-text-default: oklch(0.88 0.015 240);
+  --color-text-heading: oklch(0.95 0.01 240);
+  --color-accent: oklch(0.72 0.14 200);
+  --color-accent-hover: oklch(0.77 0.14 200);
+  --color-accent-muted: oklch(0.72 0.14 200 / 0.15);
+  --color-success: oklch(0.65 0.18 145);
+  --color-warning: oklch(0.7 0.18 85);
+  --color-danger: oklch(0.6 0.2 25);
+  --font-sans: "SF Mono", "Monaco", "Cascadia Code", "Fira Code", monospace;
+}
+
+body {
+  background: var(--color-bg-base);
+  color: var(--color-text-default);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
